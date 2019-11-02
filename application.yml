@@ -9,5 +9,4 @@ spring:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     show-sql: false
-    hibernate:
-      ddl-auto: create
+    ddl-auto: create
