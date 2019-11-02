@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/test?createDatabaseIfNotExist=true
+    url: jdbc:postgresql://localhost:5432/test
     username: test
     password: test
     driver-class-name: org.postgresql.Driver
@@ -8,4 +8,6 @@ spring:
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-
+    show-sql: false
+    hibernate:
+      ddl-auto: create
